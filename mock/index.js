@@ -1,7 +1,9 @@
 const test = require('./test')
+const purchasesRules = require('./purchasesRules')
 
 const mockList = [
-  ...test
+  ...test,
+  ...purchasesRules
 ]
 
 module.exports = mockList
